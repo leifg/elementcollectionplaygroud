@@ -1,0 +1,5 @@
+25 Jan 2011 14:16:21,942 INFO  ~ Starting C:\Dokumente und Einstellungen\lgensert\Eigene Dateien\playground\elementcollectionexample
+25 Jan 2011 14:16:22,707 WARN  ~ You're running Play! in DEV mode
+25 Jan 2011 14:16:22,879 INFO  ~ Listening for HTTP on port 9002 (Waiting a first request to start) ...
+25 Jan 2011 14:16:24,785 INFO  ~ Connected to jdbc:hsqldb:mem:playembed
+25 Jan 2011 14:16:26,239 INFO  ~ Application 'elementcollectionexample' is now started !

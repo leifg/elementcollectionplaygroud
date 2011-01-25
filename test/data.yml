@@ -1,0 +1,24 @@
+CollectionHolder(c1):
+   name: "first collection holder"
+   genericParameters: {key: "value", anotherKey: "anotherValue"}
+
+CollectionHolder(c2):
+   name: "second collection holder"
+   genericParameters: {key: "value", anotherKey: "anotherValue"}
+
+Element(e1):
+   name: "first element of first holder"
+   holder: c1
+
+Element(e2):
+   name: "second element of first holder"
+   holder: c1
+
+#This is where the problem occurs, as soon as you add a new element to another collectionholder the HibernateException is thrown
+Element(e3):
+   name: "first element of second holder"
+   holder: c2
+
+Element(e4):
+   name: "second element of second holder"
+   holder: c2
